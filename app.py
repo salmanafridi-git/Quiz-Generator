@@ -10,7 +10,7 @@ from google.genai import types
 from pypdf import PdfReader
 
 # ---------- Settings ----------
-DEFAULT_MODEL = "gemini-2.5-flash"
+DEFAULT_MODEL = "gemini-3.5-flash"
 MAX_FILE_MB = 5
 MAX_CHARS = 40_000  # notes text sent to the model
 MIN_CHARS = 100  # below this the notes are too short for a quiz
